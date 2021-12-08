@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.0.0",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
@@ -23,9 +24,12 @@
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
+    "babel-jest": "^26.6.0",
+    "jest": "26.6.0",
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
-    "react-router-dom": "^5.3.0"
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.15.7",
@@ -78,5 +82,17 @@
   },
   "msw": {
     "workerDirectory": "public"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
